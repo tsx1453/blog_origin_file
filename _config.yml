@@ -3,9 +3,9 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: My Bug Note
+title: My Note
 subtitle: '记录自己生产的每一个BUG'
-description: 'bug!bug!bug'
+description: 
 keywords:
 author: Tian Shuxin
 language: zh-CN
@@ -115,3 +115,23 @@ deploy:
   type: git
   repository: git@github.com:tsx1453/tsx1453.github.io.git
   branch: master
+
+live2d: 
+  enable: true 
+  scriptFrom: local 
+  pluginRootPath: live2dw/ 
+  pluginJsPath: lib/ 
+  pluginModelPath: assets/ 
+  tagMode: false 
+  log: false 
+  model: 
+    use: live2d-widget-model-hijiki 
+  display:
+    position: right
+    width: 150 
+    height: 300 
+  mobile: 
+    show: true 
+  react: 
+    opacity: 0.7
+
